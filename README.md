@@ -32,3 +32,5 @@ Archivos creados:
 - ciudad_favorita.py
 - perfil.py
 - meta.py
+# aprendiendo-python
+Mi camino aprendiendo programación desde cero

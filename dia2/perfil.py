@@ -1,0 +1,10 @@
+nombre = input("Nombre: ")
+edad = input("Edad: ")
+pais = input("País: ")
+meta = input("Meta profesional: ")
+
+print("------ PERFIL ------")
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("País:", pais)
+print("Meta:", meta)

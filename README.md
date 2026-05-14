@@ -32,3 +32,12 @@ Archivos creados:
 - ciudad_favorita.py
 - perfil.py
 - meta.py
+
+---
+
+## Día 3
+Aprendí:
+- Operaciones matemáticas
+- int() y float()
+- Calculadoras simples
+- Entrada → proceso → salida

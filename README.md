@@ -394,3 +394,149 @@ Aprendí:
 - validaciones
 - lógica más avanzada
 
+# DÍA 6 — Bucles (for y while) 🔁
+1. Objetivo
+
+repetir acciones automáticamente
+evitar escribir código muchas veces
+usar:
+for
+while
+crear programas repetitivos e interactivos
+
+Esto es una de las bases MÁS importantes de programación.
+
+2. ¿Qué es un loop?
+
+Un loop repite instrucciones.
+
+En vez de:
+
+print("Hola")
+print("Hola")
+print("Hola")
+
+Haces:
+
+for i in range(3):
+    print("Hola")
+
+Mucho más elegante 😌
+
+3. FOR
+
+Se usa cuando sabes cuántas veces repetir algo.
+
+Ejemplo
+for i in range(5):
+    print("Python")
+
+Resultado:
+
+Python
+Python
+Python
+Python
+Python
+4. range()
+range(5)
+
+Va desde:
+
+0 → 4
+
+Porque Python empieza en 0.
+Eso al principio le vuela la cabeza a todo el mundo un poquito. Tradición ancestral del caos tecnológico.
+
+5. Mostrar números
+for i in range(5):
+    print(i)
+
+Resultado:
+
+0
+1
+2
+3
+4
+6. WHILE
+
+Repite mientras una condición sea verdadera.
+
+contador = 0
+
+while contador < 5:
+    print(contador)
+    contador = contador + 1
+
+MUY importante:
+
+contador = contador + 1
+
+Porque si no:
+☠️ loop infinito ☠️
+
+Y el computador entra en modo “he decidido vivir aquí para siempre”.
+
+7. Ejercicios prácticos
+Ejercicio 1 — Contar del 1 al 10
+for i in range(1, 11):
+    print(i)
+Ejercicio 2 — Tabla del 5
+for i in range(1, 11):
+    print(5 * i)
+Ejercicio 3 — Password infinita
+clave = ""
+
+while clave != "python":
+    clave = input("Ingresa la clave: ")
+
+print("Acceso permitido")
+8. Mini proyecto 🔥
+Proyecto: “Mini menú interactivo”
+
+Archivo:
+
+menu.py
+
+Objetivo:
+Mostrar opciones hasta que el usuario quiera salir.
+
+Ejemplo:
+
+opcion = ""
+
+while opcion != "3":
+
+    print("1. Saludar")
+    print("2. Decir adiós")
+    print("3. Salir")
+
+    opcion = input("Selecciona una opción: ")
+
+    if opcion == "1":
+        print("Hola 👋")
+
+    elif opcion == "2":
+        print("Adiós 👋")
+
+    elif opcion == "3":
+        print("Programa terminado")
+9. Lo importante de hoy 🧠
+
+Aquí empieza a aparecer algo MUY real de programación:
+
+Automatización
+
+Los loops permiten:
+
+repetir tareas
+recorrer datos
+crear menús
+juegos
+sistemas
+bots
+automatizaciones
+
+Son gigantescos.
+

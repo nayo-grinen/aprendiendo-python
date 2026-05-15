@@ -208,7 +208,7 @@ Aprendí:
 - Calculadoras simples
 - Entrada → proceso → salida
 
-DÍA 4 — Condicionales (if) y toma de decisiones 🧠
+# DÍA 4 — Condicionales (if) y toma de decisiones 🧠
 1. Objetivo de hoy
 
 cómo hacer que un programa tome decisiones
@@ -283,11 +283,114 @@ Hoy deberías terminar con:
 ✅ README actualizado
 ✅ nuevo commit en GitHub
 
-## Día 4
 Aprendí:
 - if
 - elif
 - else
 - comparaciones
 - lógica básica
+
+# DÍA 5 — Operadores lógicos 🔥
+1. Objetivo
+
+combinar condiciones
+crear validaciones más inteligentes
+usar:
+and
+or
+not
+
+Esto hace que tus programas se parezcan más a aplicaciones reales.
+
+2. Teoría
+AND
+
+Significa:
+👉 ambas condiciones deben cumplirse.
+
+Ejemplo:
+
+edad = 20
+tiene_entrada = True
+
+if edad >= 18 and tiene_entrada == True:
+    print("Puede entrar")
+
+Aquí:
+
+debe ser mayor de edad
+Y tener entrada
+
+Las dos.
+
+3. OR
+
+Significa:
+👉 al menos una condición debe cumplirse.
+
+dia = "sabado"
+
+if dia == "sabado" or dia == "domingo":
+    print("Es fin de semana")
+4. NOT
+
+Invierte el valor.
+
+llueve = False
+
+if not llueve:
+    print("Podemos salir")
+5. Ejercicios prácticos
+Ejercicio 1 — Acceso
+edad = int(input("Edad: "))
+entrada = input("¿Tienes entrada? ")
+
+if edad >= 18 and entrada == "si":
+    print("Acceso permitido")
+else:
+    print("No puedes entrar")
+Ejercicio 2 — Descuento
+edad = int(input("Edad: "))
+
+if edad < 12 or edad > 60:
+    print("Tienes descuento")
+else:
+    print("No tienes descuento")
+6. Mini proyecto 🔥
+Proyecto: “Sistema de login simple”
+
+Archivo:
+
+login.py
+
+Objetivo:
+
+pedir usuario
+pedir contraseña
+validar acceso
+
+Ejemplo:
+
+usuario = input("Usuario: ")
+clave = input("Contraseña: ")
+
+if usuario == "admin" and clave == "python123":
+    print("Bienvenida")
+else:
+    print("Datos incorrectos")
+7. Extra challenge ⚡
+
+Agregar:
+
+intentos incorrectos
+mensaje personalizado
+emojis
+validación de mayúsculas
+
+Aprendí:
+- and
+- or
+- not
+- validaciones
+- lógica más avanzada
 
